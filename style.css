@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&dispay=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+    height: 90%;
+}
+
+nav  {
+    padding: 10px 4%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+ nav a {
+   color: #777;
+   text-decoration: none;
+}   
+
+
+nav button {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: #777;
+    cursor: pointer;
+}
+
+nav #profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+nav #profile img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+main {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 4%;
+}
+
+ #logo {
+     font-size: 8vw;
+     font-weight: bold;
+     color: #777;
+ }
+
+ main form {
+     max-width: 100%;
+     width: 600px;
+     height: 50px;
+     background-color: white;
+     border-radius: 50px;
+     margin-top: 10px;
+     display: flex;
+     box-shadow: 0 0 15px #0003;
+ }
+
+
+ main form input {
+     flex: 1;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     color: #333;
+     padding: 10px 15px;
+ }
+
+main form span {
+    align-self: center;
+    padding-left: 20px;
+    color: #777;
+}
+
+ main section {
+     margin-top: 20px;
+ }
+
+ #customize {
+     padding: 10px;
+     border-radius: 50px;
+     border: none;
+     box-shadow: 0 0 15px #0003;
+     color: #333;
+     background-color: #fff;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     cursor: pointer;
+ }
